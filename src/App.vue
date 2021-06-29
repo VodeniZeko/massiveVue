@@ -1,17 +1,22 @@
 <template>
-  <HelloWorld msg="Some Text"/>
-  <ByeWorld msg="Other Text"/>
+
+  <Header />
+<div class="container max-w-screen-xl mx-auto bg-red-600">
+  <h1>hell ofrom container</h1>
+</div>
+<Footer/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import ByeWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    ByeWorld
+    Header,
+    Footer
   }
 }
 </script>
