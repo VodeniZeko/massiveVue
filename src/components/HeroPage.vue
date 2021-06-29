@@ -2,7 +2,7 @@
 <section class="w-full max-w-screen-xl ml-1 lg:flex lg:flex-row">
 
 <div  >
-<img class="bg-center bg-cover" src="../assets/d.jpg">
+<img class="bg-center bg-cover" src="../assets/senior.jpg">
 </div>
 
     
@@ -47,7 +47,7 @@
   <div class="absolute inset-0 z-10 flex items-center justify-center">
     <div class="flex w-full px-24 md:flex-col">
       <p class="mb-4 text-sm font-semibold text-blue-800 opacity-0 md:text-4xl md:opacity-80 ">Find & Compare Your Local <br/> Plans and Providers Fast</p>    
-      <p class="text-gray-500 opacity-0  text-md md:opacity-100"> Let us help you find the right Medicare Supplement Coverage plan for you. In less than <br/> 1 minute you could be saving your deductibles, co-pays and Medicare bills</p>
+      <p class="text-gray-500 opacity-0 text-md md:opacity-100"> Let us help you find the right Medicare Supplement Coverage plan for you. In less than <br/> 1 minute you could be saving your deductibles, co-pays and Medicare bills</p>
     </div>
     
   </div>
