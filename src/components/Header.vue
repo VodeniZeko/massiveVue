@@ -1,7 +1,7 @@
 <template>
 
-  <div class="container max-w-screen-xl px-2 mx-auto">
-  <div class="flex mt-10 h-28">
+  <div class="container max-w-screen-xl px-10 mx-auto ">
+  <div class="flex px-10 mt-10 h-28">
 
       <div class="hidden w-3/6 ml-20 sm:flex">
         <div class="flex flex-col ">
@@ -18,13 +18,13 @@
           </div>
       </div>
 
-      <div class="flex mx-auto sm:justify-end sm:w-3/6 item-center">
+      <div class="flex pt-2 mx-auto sm:justify-end sm:w-3/6 item-center">
         <div class="flex flex-col p-2"> 
           <i class="text-5xl text-blue-900 las la-phone-volume"></i>    
         </div>
-        <div class="pt-1 font-bold text-blue-900">
+        <div class="pt-1 font-bold text-indigo-900">
           <p class="text-1xl md:text-2xl">866-368-7202</p> 
-          <p class="text-sm">• Live Agents Available Now</p>
+          <p class="text-xs "><span class="text-xl leading-3 text-blue-900">•</span> Live Agents Available Now</p>
           </div>
       </div>
 

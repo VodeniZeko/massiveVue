@@ -1,8 +1,7 @@
 <template>
-
   <Header />
-<div class="container max-w-screen-xl mx-auto bg-red-600">
-  <h1>hell ofrom container</h1>
+<div class="container mx-auto max-w-screen-x">
+  <HomeView />
 </div>
 <Footer/>
 
@@ -10,12 +9,14 @@
 
 <script>
 import Header from './components/Header.vue'
+import HomeView from './views/HomeView.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
+    HomeView,
     Footer
   }
 }

@@ -1,0 +1,69 @@
+<template>
+<section class="w-full max-w-screen-xl ml-1 lg:flex lg:flex-row">
+
+<div  >
+<img class="bg-center bg-cover" src="../assets/d.jpg">
+</div>
+
+    
+<!-- zip code form -->
+<div class="flex justify-end -m-14 md:m-0 sm:w-screen lg:w-10/12 lg:mr-10 max-w-10/12">
+    <div class="container z-40 w-3/5 mx-auto lg:mt-20 lg:w-11/12">
+    <form class="text-white bg-blue-700 rounded-lg shadow-md ">
+
+    <div class="flex justify-center bg-blue-500 rounded-t-lg h-14 sm:h-28">     
+    <span class="self-center font-semibold text-md sm:text-2xl xl:text-4xl">
+    Find Mediare Coverage
+
+    </span>
+    </div>
+
+    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center py-4 text-sm sm:text-lg xl:text-2xl">
+    <p >Compare <span class="font-bold">Medicare Plans</span></p>
+    <p >in one minute!</p>
+    </div>
+
+    <div class="flex flex-col items-center w-10/12 pt-3 pb-4 mb-6 bg-white sm:pt-6 sm:pb-8 sm:mb-12">
+    <label for="something" class="block mb-2 text-xs font-medium text-blue-700 sm:text-sm xl:text-md">Enter Your Zip Code</label>
+    <input type="text" placeholder="" class="w-11/12 h-10 py-2 text-xl text-center text-gray-700 border-2 border-black rounded appearance-none xl:h-14 focus:outline-none focus:bg-white" />
+
+    <button class="w-3/5 py-3 mt-4 text-xs font-bold text-white bg-yellow-600 rounded shadow sm:text-sm sm:w-9/12 lg:text-lg xl:text-3xl hover:bg-yellow-500 focus:shadow-outline focus:outline-none" type="button">
+        Get Started
+    </button>
+
+    </div>
+
+    </div>
+    </form>
+    </div>
+    </div> 
+
+</section>
+
+<!-- <section class="flex justify-end max-w-screen-xl -m-8 " >
+        <img class="object-fill w-screen h-40 ml-8 md:h-80 opacity-40" src="../assets/young-doctor.jpg" >
+</section> -->
+
+<div class="relative w-full h-64 max-w-screen-xl ml-1 -m-8 bg-blue-100">
+    <img class="inset-0 z-0 w-full h-64 bg-center bg-cover opacity-40" src="../assets/young-doctor.jpg" >
+
+  <p class="absolute inset-0 z-10 flex items-center justify-center text-6xl font-semibold text-white ">Find & Compare Your Local <br/> Plans and Providers Fast</p>
+</div>
+
+</template>
+
+<script>
+
+
+
+export default {
+  name: 'HeroPage',
+    
+}
+
+
+</script>
+
+
+
