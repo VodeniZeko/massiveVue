@@ -1,10 +1,9 @@
 <template>
   <Header />
-<div class="container mx-auto max-w-screen-x">
+<div class="container max-w-screen-xl mx-auto h-100vh">
   <HomeView />
 </div>
 <Footer/>
-
 </template>
 
 <script>
