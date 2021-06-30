@@ -1,14 +1,8 @@
 <template>
-  <main class="px-8 h-100vh " v-if="!loading">
+  <main class="px-8 h-100vh ">
     <HeroPage />
     <MiddleNav />
     <Teaser :items="teaserItems" />
-  </main>
-
-  <main v-else class="flex flex-col justify-center text-center align-center">
-    <div class="mt-10 mb-6 text-3xl text-gray-500">
-      Loading
-    </div>
   </main>
 </template>
 

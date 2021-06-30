@@ -2,10 +2,11 @@
         <div class="justify-center ml-1 text-center bg-left bg-no-repeat md:py-20 md:flex md:flex-row md:bg-contain bg-abstract" >
                 <!-- image -->
                     <div class="flex mt-6 md:w-1/3 h-60"
-                    :class="{'mx-12': item.id % 2 !== 0}"
+                    :class="{'sm:mx-12': item.id % 2 !== 0}"
                      >
-                    <img :src="item.image.src" 
-                    class="object-cover w-screen sm:object-contain md:object-cover"
+                    <img :src="item.image.src"
+                    :alt="item.image.alt" 
+                    class="object-cover w-full sm:object-contain md:object-cover"
                      > 
                     </div>
                 <!-- info -->
