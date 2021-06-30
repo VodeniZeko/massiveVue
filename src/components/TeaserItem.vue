@@ -1,5 +1,7 @@
 <template>
-        <div class="justify-center ml-1 text-center bg-left bg-no-repeat lg:space-x-28 md:py-20 md:flex md:flex-row md:bg-contain bg-abstract" >
+        <div 
+        :style="{ backgroundImage: `url(${abstractImg})` }"
+        class="justify-center ml-1 text-center bg-left bg-no-repeat lg:space-x-28 md:py-20 md:flex md:flex-row md:bg-contain" >
                 <!-- image -->
                     <div class="flex mt-6 md:mx-6 md:w-1/3 h-60"
                     :class="{'sm:mx-12': item.id % 2 !== 0}"
@@ -22,6 +24,8 @@
 </template>
 
 <script>
+import abstractImg from '../assets/abstract.png'
+
 export default {
     props: {
         item: {
@@ -29,10 +33,14 @@ export default {
             required: true,
         }
     },
-    
+    data() {
+    return {
+      abstractImg
+    }
 // mounted () {
 //   console.log(this.item)
 // }
+}
 }
 </script>
 

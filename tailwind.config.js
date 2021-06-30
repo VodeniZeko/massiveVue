@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: () => ({
-        // abstract: "url('./abstract.png')",
+        // abstract: "url('/abstract.png')",
         couple:
           "url('https://media.istockphoto.com/photos/senior-couple-relaxing-at-home-picture-id1152602619')",
       }),
