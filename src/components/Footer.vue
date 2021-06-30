@@ -4,9 +4,9 @@
 <div class="flex flex-col-reverse justify-between pb-4 bg-blue-800 sm:p-0 sm:flex sm:flex-row w-100">
 <!-- TEXT -->
     <div class="flex flex-col justify-center text-center text-white sm:w-6/12 ">
-      <div class="w-10/12 mx-auto sm:mr-2">
-            <p class="pb-4 text-2xl font-semibold">Talk directly to a licensed Insurance agency in oyur area!</p>
-            <span class="">We're dedicated to helping you find the right Medicare Supplement Insurance. If you're looking to lower your out-of-pocket expenses or expand you current Medicare coverage, we have Licensed Insurance Agents available to provide expert advice and guidance. Let us walk you through the process!</span>
+      <div class="w-7/12 mx-auto text-left sm:mr-12">
+            <p class="pb-4 text-xl md:text-2xl font-semibold">Talk directly to a licensed Insurance agency in oyur area!</p>
+            <span class="text-xs leading-6 md:text-md">We're dedicated to helping you find the right Medicare Supplement Insurance. If you're looking to lower your out-of-pocket expenses or expand you current Medicare coverage, we have Licensed Insurance Agents available to provide expert advice and guidance. Let us walk you through the process!</span>
           </div>
       </div>
 <!-- IMAGE -->

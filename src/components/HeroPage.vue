@@ -26,7 +26,11 @@
 
     <div class="flex flex-col items-center w-10/12 pt-3 pb-4 mb-6 bg-white rounded-lg sm:pt-6 sm:pb-8 sm:mb-12">
     <label for="something" class="block mb-2 text-xs font-medium text-blue-700 sm:text-sm xl:text-md">Enter Your Zip Code</label>
-    <input type="text" placeholder="" class="w-11/12 h-10 py-2 text-xl text-center text-gray-700 border-2 border-black rounded appearance-none xl:h-14 focus:outline-none focus:bg-white" />
+    <input 
+    type="text" 
+    maxlength=5
+    placeholder="" 
+    class="w-11/12 h-10 py-2 text-xl text-center text-gray-700 border-2 border-black rounded appearance-none xl:h-14 focus:outline-none focus:bg-white" />
 
     <button class="w-3/5 py-3 mt-4 text-xs font-bold text-white bg-yellow-600 rounded shadow sm:text-sm sm:w-9/12 lg:text-lg xl:text-3xl hover:bg-yellow-500 focus:shadow-outline focus:outline-none" type="button">
         Get Started
