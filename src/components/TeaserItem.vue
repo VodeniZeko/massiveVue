@@ -1,7 +1,7 @@
 <template>
-        <div class="justify-center ml-1 text-center bg-left bg-no-repeat md:py-20 md:flex md:flex-row md:bg-contain bg-abstract" >
+        <div class="justify-center ml-1 text-center bg-left bg-no-repeat lg:space-x-28 md:py-20 md:flex md:flex-row md:bg-contain bg-abstract" >
                 <!-- image -->
-                    <div class="flex mt-6 md:w-1/3 h-60"
+                    <div class="flex mt-6 md:mx-6 md:w-1/3 h-60"
                     :class="{'sm:mx-12': item.id % 2 !== 0}"
                      >
                     <img :src="item.image.src"
@@ -11,11 +11,11 @@
                     </div>
                 <!-- info -->
                     <div class="container lg:text-left md:w-1/3">
-                        <p class="pb-2 text-xl font-semibold text-blue-800 md:text-3xl opacity-80">{{item.title}}</p>
-                        <p class="m-3 text-xs leading-6 lg:m-0 lg:w-10/12 lg:text-gray-500 md:text-md">{{item.text}}</p>
+                        <p class="pb-2 text-2xl text-blue-800 sm:font-semibold md:text-3xl opacity-80">{{item.title}}</p>
+                        <p class="m-3 text-sm sm:leading-6 sm:m-0 lg:w-10/12 lg:text-gray-500 md:text-md">{{item.text}}</p>
                         
                         <slot></slot>
-                        <button class="w-20 py-1 text-xs font-bold text-white bg-yellow-600 rounded shadow lg:w-32 lg:mt-4 md:text-sm lg:text-md xl:text-xl hover:bg-yellow-500 focus:shadow-outline focus:outline-none"  type="button">Find Plans</button>
+                        <button class="w-20 py-2 text-xs font-bold text-white bg-yellow-600 rounded shadow lg:w-32 lg:mt-4 md:text-sm lg:text-md xl:text-xl hover:bg-yellow-500 focus:shadow-outline focus:outline-none"  type="button">Find Plans</button>
                     </div>
                 
         </div>

@@ -7,7 +7,7 @@
 
     
 <!-- zip code form -->
-<div class="flex justify-end -m-8 md:m-0 sm:w-screen lg:w-11/12 lg:mr-10 max-w-10/12">
+<div class="flex justify-end -mt-8 md:m-0 sm:w-screen lg:w-11/12 lg:mr-10 max-w-10/12">
     <div class="container z-40 w-3/5 mx-auto lg:mt-14 lg:w-11/12">
     <form class="text-white bg-blue-700 rounded-lg shadow-md ">
 
