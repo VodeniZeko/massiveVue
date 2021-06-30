@@ -26,7 +26,7 @@ const teaserItems = [
     },
     text: `It is administered by the federal goverment. The plan has two parts. A and B. Part A is referred to as hospital insurance and covers care at hospital(inpatient) and skilled nursing facilities as we as hospice care and some home health care. Part B is medical insurance and covers doctors' services(at their offices and hospitals), preventive care, and medical supplies.
     `,
-    title: `Medical Part A`
+    title: `Medicare Part A`
   },
   {
     id: 2,
